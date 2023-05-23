@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable-v24/custombutton.xml" value="0.1485" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable-v24/custombutton2.xml" value="0.1485" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable-v24/custombuttonorange.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable-v24/custombuttonred.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/badge_circle.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/badge_shape.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/custombiru.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/custombutton3.xml" value="0.1485" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/custombutton4.xml" value="0.1485" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/custombuttonwhite.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.164" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/drawable/shape.xml" value="0.132" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout-v30/activity_stok_barang.xml" value="0.2734375" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_cart.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_detail.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_kasir.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_laporan.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_nav_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_stok_barang.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_supplier.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/activity_ubah_data_barang.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/app_bar_nav_dashboard.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/card_item_barang.xml" value="0.2171875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/card_item_barang2.xml" value="0.176" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/content_nav_dashboard.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/fragment_gallery.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/fragment_slideshow.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/grid_barang.xml" value="0.2171875" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/list_barang.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/list_barang_kasir.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/nav_header_nav_dashboard.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/tab_profil.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/layout/tambah_barang.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/menu/activity_main_drawer.xml" value="0.20625" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/menu/main_menu.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/menu/menu.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/POSDiasthaDjayaKediri2/app/src/main/res/menu/nav_menu.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

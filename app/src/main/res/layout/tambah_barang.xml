@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="580dp"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/custombutton">
+
+    <RelativeLayout
+        android:id="@+id/rl_form"
+        android:layout_width="wrap_content"
+        android:layout_height="580dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/Txtisiform"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ubntu_bold"
+            android:text="Barang baru"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="301dp"
+            android:layout_height="445dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/txt_nama_barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubntu_bold"
+                android:text="Nama"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edt_nama"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_nama_barang"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="Nama Barang"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <RelativeLayout
+                android:id="@+id/edt_rl_kode_barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_nama"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_kode_barang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/ubntu_bold"
+                    android:text="Kode Barang"
+                    android:textColor="@color/black" />
+
+                <ImageButton
+                    android:id="@+id/ib_barcode"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/barcode"
+                    android:clickable="true"
+                    android:onClick="scanCode" />
+
+                <EditText
+                    android:id="@+id/edt_kode_barang"
+                    android:layout_width="253dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/txt_kode_barang"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:hint="kode Barang"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textSize="13dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_harga_beli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_rl_kode_barang"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubntu_bold"
+                android:text="Harga Beli"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edt_harga_beli"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_harga_beli"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="000"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/txt_harga_jual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_harga_beli"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubntu_bold"
+                android:text="Harga Jual"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edt_harga_jual"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_harga_jual"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="000"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/txt_stokbarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_harga_jual"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubntu_bold"
+                android:text="Stok Barang"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edt_stok_barang"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_stokbarang"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="000"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/txt_kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_stok_barang"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/ubntu_bold"
+                android:text="Kategori"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edt_kategori"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txt_kategori"
+                android:fontFamily="@font/ubuntu_regular"
+                android:hint="Kategori"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <!--            <Button-->
+            <!--                android:id="@+id/btn_kamera"-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:layout_below="@+id/edt_kategori"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginTop="6dp"-->
+            <!--                android:layout_marginEnd="6dp"-->
+            <!--                android:background="@drawable/ic_baseline_camera_alt_24"-->
+            <!--                android:gravity="right"-->
+            <!--                android:onCLick="tambah_barang"-->
+            <!--                android:scaleType="fitCenter" />-->
+
+            <ImageView
+                android:id="@+id/iv_img_kamera"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/edt_kategori"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="63dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/ic_baseline_camera_alt_24"
+                android:clickable="true"
+                android:onClick="Ftbarang" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/rl2"
+            android:layout_gravity="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custombutton4"
+            android:hint="SIMPAN"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/ic_baseline_close_24" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchs"
+        android:title="Searchs"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_baseline_search_24" />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_manajamen"-->
+<!--        android:title="Manajemen" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/nav_setting"-->
+<!--        android:title="Setting" />-->
+</menu>
